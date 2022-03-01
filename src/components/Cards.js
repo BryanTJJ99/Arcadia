@@ -5,41 +5,41 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out some of our NFTs here!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src='images/kerby-1.jpg'
+              text='Sun and moon eaters'
+              label='Minokawa'
+              path='/collection'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src='images/kerby-2.jpg'
+              text='Swamp'
+              label='Swamp'
+              path='/collection'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src='images/kerby-3.jpg'
+              text='Ocean'
+              label='Kyogre'
+              path='/collection'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src='images/kerby-4.jpg'
+              text='Food chain'
+              label='Eagle'
+              path='/collection'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src='images/kerby-5.jpg'
+              text='Arrival'
+              label='Arrival'
+              path='/collection'
             />
           </ul>
         </div>

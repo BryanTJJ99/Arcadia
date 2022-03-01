@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            TRVL
+            Conservatory
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -43,20 +43,20 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/aboutus'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                About Us
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/collection'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Collection
               </Link>
             </li>
 
