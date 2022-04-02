@@ -6,7 +6,7 @@ Our vision is to capture the aesthetic of local biodiversity through digital med
 combining stylistic elements from the cyberpunk genre and American portraiture.
 This React site allows users to view Arcadia's project and mint NFTs of their choice. (to be updated)
 
-##Built with
+## Built with
 - Frontend development framework: ReactJS, Javascript
 - Building smart contracts: Solidity
 - Libraries used: dotenv, axios
