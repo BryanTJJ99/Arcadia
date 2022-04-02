@@ -1,12 +1,12 @@
 const { expect } = require("chai");
-const { ethers } = require("hardhat");
-
+const hre = require("hardhat");
+ 
 describe ("MyNFT", function() {
     it("should mint and transfer nft to someone"), async function() {
-        const Arcadia = await ethers.getContractFactory("Arcadia");
+        const Arcadia = await hre.ethers.getContractFactory('Arcadia');
         const arcadia = await Arcadia.deploy();
         await arcadia.deployed();
-        const recipient = '0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80';
+        const recipient = '0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266';
 
         const metadataURI = 'src/artifacts/arcadia.png';
 
