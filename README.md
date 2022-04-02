@@ -4,7 +4,7 @@
 Associated with bountiful natural splendor and harmony, Arcadia (Greek: Αρκαδία) is a poetic byword for an idyllic vision of unspoiled wilderness, with the vision of pastoralism and harmony with nature.
 Our vision is to capture the aesthetic of local biodiversity through digital mediums, through 
 combining stylistic elements from the cyberpunk genre and American portraiture.
-This React site allows users to view Arcadia's project and mint NFTs of their choice. (to be updated)
+This React site allows users to view Arcadia's project and mint NFTs of their choice.
 
 ## Built with
 - Frontend development framework: ReactJS, Javascript
