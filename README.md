@@ -27,5 +27,6 @@ $ npm start
 - Connect to Polygon network
 - Allow users to create account using Metamask and view their NFT collections
 - Web game aspect
+- Integrate Toucan Bridge (aggregates carbon credits in the Carbon Pool smart contracts) https://toucan.earth/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
